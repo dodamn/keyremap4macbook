@@ -1,0 +1,14 @@
+files/prefpane/output
+files/share
+pkginfo/Info.plist
+src/core/kext/Info.plist
+src/core/kext/version.hpp
+src/core/server/Info.plist
+src/util/KeyDump/Info.plist
+src/util/prefpane/Info.plist
+src/util/statusbar/Info.plist
+src/util/uninstaller/Info.plist
+src/util/updater/Info.plist
+KeyRemap4MacBook.pkg
+KeyRemap4MacBook-*.pkg.zip
+
