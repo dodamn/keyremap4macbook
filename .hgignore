@@ -1,0 +1,26 @@
+syntax: regexp
+.*\.pkg/
+.*\.zip$
+.*\.gz
+.*\.o
+pkgroot/
+.*/build/
+.*\.xcodeproj/.*\.mode1
+.*\.xcodeproj/.*\.mode1v3
+.*\.xcodeproj/.*\.pbxuser
+^files/prefpane/output/checkbox\.xml$
+src/core/kext/config/output
+src/core/kext/keycode/output
+util/getActiveApplication/getname
+files/share/reset
+pkginfo/Info.plist$
+src/core/kext/Info.plist$
+src/core/server/Info.plist$
+src/util/KeyDump/Info.plist$
+src/util/launchd/Info.plist$
+src/util/prefpane/Info.plist$
+src/util/statusbar/Info.plist$
+src/util/uninstaller/Info.plist$
+src/util/updater/Info.plist$
+src/core/kext/version.hpp
+/a\.out$
