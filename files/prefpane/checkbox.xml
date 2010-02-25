@@ -3177,6 +3177,79 @@
               <autogen>--KeyToKey-- FROMKEYCODE_HOME, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
               <autogen>--KeyToKey-- FROMKEYCODE_END, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
             </item>
+            <item>
+              <name>Remap Control_L+C to Command_L+C</name>
+              <sysctl>remap.app_firefox_remap_controlLC</sysctl>
+              <only>FIREFOX, THUNDERBIRD</only>
+              <autogen>--KeyToKey-- KeyCode::C, ModifierFlag::CONTROL_L, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+V to Command_L+V</name>
+              <sysctl>remap.app_firefox_remap_controlLV</sysctl>
+              <only>FIREFOX, THUNDERBIRD</only>
+              <autogen>--KeyToKey-- KeyCode::V, ModifierFlag::CONTROL_L, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+X to Command_L+X</name>
+              <sysctl>remap.app_firefox_remap_controlLX</sysctl>
+              <only>FIREFOX, THUNDERBIRD</only>
+              <autogen>--KeyToKey-- KeyCode::X, ModifierFlag::CONTROL_L, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+L to Command_L+L</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLL</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::L, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+K to Command_L+K</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLK</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+F to Command_L+F</name>
+              <sysctl>remap.app_firefox_remap_controlLF</sysctl>
+              <only>FIREFOX, THUNDERBIRD</only>
+              <autogen>--KeyToKey-- KeyCode::F, ModifierFlag::CONTROL_L, KeyCode::F, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+T to Command_L+T</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLT</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::T, ModifierFlag::CONTROL_L, KeyCode::T, ModifierFlag::COMMAND_L</autogen>
+            </item>
+             <item>
+              <name>Remap Control_L+W to Command_L+W</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLW</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::W, ModifierFlag::CONTROL_L, KeyCode::W, ModifierFlag::COMMAND_L</autogen>
+            </item>
+             <item>
+              <name>Remap Control_L+J to Command_L+J</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLJ</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::J, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+Up to Command_L+Up</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLUpArrow</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+Down to Command_L+Down</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLDownArrow</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
+            </item>
           </list>
         </item>
         <item>
