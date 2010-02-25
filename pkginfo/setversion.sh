@@ -1,7 +1,7 @@
 #!/bin/sh
 
 basedir=`dirname $0`
-version=$(cat "$basedir/../version")
+version=$(awk -F'-' '{print $1}' "$basedir/../version")
 
 for f in `find $basedir/.. -name 'Info.plist.tmpl'`; do
     if [ -f "$f" ]; then

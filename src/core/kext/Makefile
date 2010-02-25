@@ -1,6 +1,6 @@
 #CONFIGURATION = Debug
 CONFIGURATION = Release
-VERSION = `cat ../../../version`
+VERSION = `awk -F'-' '{ print $$1 }' ../../../version`
 
 all:
 	$(MAKE) -C ../../../pkginfo
