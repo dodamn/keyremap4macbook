@@ -3250,6 +3250,28 @@
               <only>FIREFOX</only>
               <autogen>--KeyToKey-- KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
             </item>
+            <item>
+              <name>Remap Control_L+= to Command_L+=</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLEqual</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::EQUAL, ModifierFlag::CONTROL_L, KeyCode::EQUAL, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+- to Command_L+-</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLMinus</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::MINUS, ModifierFlag::CONTROL_L, KeyCode::MINUS, ModifierFlag::COMMAND_L</autogen>
+            </item>
+            <item>
+              <name>Remap Control_L+0 to Command_L+0</name>
+              <appendix>(only Firefox)</appendix>
+              <sysctl>remap.app_firefox_remap_controlLZero</sysctl>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::CONTROL_L, KeyCode::KEY_0, ModifierFlag::COMMAND_L</autogen>
+            </item>
+           
           </list>
         </item>
         <item>
