@@ -3271,7 +3271,13 @@
               <only>FIREFOX</only>
               <autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::CONTROL_L, KeyCode::KEY_0, ModifierFlag::COMMAND_L</autogen>
             </item>
-           
+            <item>
+              <name>Remap Control_L+R to Command_L+R</name>
+              <sysctl>remap.app_firefox_remap_controlLR</sysctl>
+              <appendix>(only Firefox)</appendix>
+              <only>FIREFOX</only>
+              <autogen>--KeyToKey-- KeyCode::R, ModifierFlag::CONTROL_L, KeyCode::R, ModifierFlag::COMMAND_L</autogen>
+            </item>
           </list>
         </item>
         <item>
